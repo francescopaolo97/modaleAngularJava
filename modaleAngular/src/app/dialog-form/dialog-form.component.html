@@ -1,0 +1,45 @@
+<div>
+  <div>
+    <mat-form-field appearance="outline">
+      <mat-label>Titolo</mat-label>
+      <input
+        matInput
+        placeholder="Inserisci titolo"
+        [(ngModel)]="programmaForm.titolo"
+      />
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field appearance="outline">
+      <mat-label>Descrizione</mat-label>
+      <input
+        matInput
+        placeholder="Inserisci descrizione"
+        [(ngModel)]="programmaForm.descrizione"
+      />
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field appearance="outline">
+      <mat-label>Orario inizio</mat-label>
+      <input
+        matInput
+        placeholder="Inserisci orario d'inizio"
+        [(ngModel)]="programmaForm.orario_inizio"
+      />
+    </mat-form-field>
+  </div>
+  <div>
+    <mat-form-field appearance="outline">
+      <mat-label>Orario_fine</mat-label>
+      <input
+        matInput
+        placeholder="Inserisci orario di fine"
+        [(ngModel)]="programmaForm.orario_fine"
+      />
+    </mat-form-field>
+  </div>
+  <button mat-button color="primary" (click)="eseguiModifica()">
+    Modifica
+  </button>
+</div>

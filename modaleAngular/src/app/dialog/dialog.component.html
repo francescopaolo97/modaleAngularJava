@@ -1,0 +1,15 @@
+<h2 mat-dialog-title>Elimina programma</h2>
+<mat-dialog-content> Sei sicuro di eliminare? </mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close>No</button>
+  <button
+    (click)="confermaEliminazione()"
+    mat-button
+    mat-dialog-close
+    cdkFocusInitial
+    mat-raised-button
+    color="warn"
+  >
+    Ok
+  </button>
+</mat-dialog-actions>

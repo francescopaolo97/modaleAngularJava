@@ -1,0 +1,32 @@
+table {
+  width: 100%;
+}
+mat-icon {
+  cursor: pointer;
+}
+.tabella {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  border: 2px solid;
+  box-shadow: 5px 5px 5px black;
+  height: 60vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.tabella::-webkit-scrollbar {
+  width: 12px; /* Larghezza della scrollbar */
+}
+
+.tabella::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Colore dello sfondo della scrollbar */
+}
+
+.tabella::-webkit-scrollbar-thumb {
+  background: #888; /* Colore della thumb (l'indicatore mobile della scrollbar) */
+  border-radius: 10px; /* Arrotondamento dei bordi della thumb */
+}
+
+.tabella::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Colore della thumb al passaggio del mouse */
+}
